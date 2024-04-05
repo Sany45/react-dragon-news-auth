@@ -7,6 +7,7 @@ const navLinks = <>
         <li><a><NavLink to="/">Home</NavLink></a></li>
         <li><a><NavLink to="/about">About</NavLink></a></li>
         <li><a><NavLink to="/career">Career</NavLink></a></li>
+        <li><a><NavLink to="/login">Login</NavLink></a></li>
         
 </>
 
@@ -34,8 +35,8 @@ const navLinks = <>
           <img src={userDeafultPic} />
         </div>
       </div>
- <Link>
-  <button className="btn">LOGIN</button>
+ <Link to="/login">
+  <button className="btn">Login</button>
  </Link>
   </div>
 </div>
